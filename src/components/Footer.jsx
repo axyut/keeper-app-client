@@ -1,10 +1,11 @@
 import React from "react";
 
 function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
-    <div>
-      <h2>Kepper App Footer</h2>
-    </div>
+    <footer>
+      <p>Copyright ⓒ {currentYear}</p>
+    </footer>
   );
 }
 

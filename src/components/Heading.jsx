@@ -2,9 +2,9 @@ import React from "react";
 
 function Heading() {
   return (
-    <div>
-      <h2>Kepper App Header</h2>
-    </div>
+    <header>
+      <h1>Keeper</h1>
+    </header>
   );
 }
 
